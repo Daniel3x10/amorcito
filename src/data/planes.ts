@@ -14,7 +14,6 @@ export interface Plan {
   cumplido: boolean;
   lugar?: string;
   fechaCumplido?: string;
-  esPersonalizado?: boolean;
 }
 
 export const LISTA_DE_PLANES: Plan[] = [
