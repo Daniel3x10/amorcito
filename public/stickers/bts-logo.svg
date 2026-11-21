@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="btsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6b21a8"/>
+    </linearGradient>
+    <filter id="btsGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#a855f7" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <!-- BTS Iconic Trapezoid Doors -->
+  <g filter="url(#btsGlow)">
+    <polygon points="45,40 92,48 92,152 45,160" fill="url(#btsGrad)" rx="4"/>
+    <polygon points="108,48 155,40 155,160 108,152" fill="url(#btsGrad)" rx="4"/>
+  </g>
+  <text x="100" y="185" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#c084fc" letter-spacing="4">BTS</text>
+</svg>
