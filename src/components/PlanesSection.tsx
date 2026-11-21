@@ -78,9 +78,9 @@ export function PlanesSection() {
       {/* Título de la sección con stickers */}
       <div className="text-center space-y-2">
         <div className="flex items-center justify-center gap-2">
-          <img src="/stickers/hello-kitty-1.png" alt="Kitty" className="w-8 h-8 object-contain" />
+          <img src="./stickers/hello-kitty-1.png" alt="Kitty" className="w-8 h-8 object-contain" />
           <span className="text-xs uppercase tracking-widest text-pink-600 font-mono font-medium">Nuestra Bucket List</span>
-          <img src="/stickers/bubu-dudu-love.gif" alt="Bubu" className="w-8 h-8 object-contain" />
+          <img src="./stickers/bubu-dudu-love.gif" alt="Bubu" className="w-8 h-8 object-contain" />
         </div>
         <h2 className="text-3xl sm:text-4xl font-serif text-stone-900 font-bold">Lista de Planes Juntos</h2>
         <p className="text-stone-600 text-sm max-w-md mx-auto">

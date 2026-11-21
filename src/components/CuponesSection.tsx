@@ -30,9 +30,9 @@ export function CuponesSection() {
       {/* Título de la sección */}
       <div className="text-center space-y-2">
         <div className="flex items-center justify-center gap-2">
-          <img src="/stickers/hello-kitty-4.png" alt="Kitty" className="w-8 h-8 object-contain" />
+          <img src="./stickers/hello-kitty-4.png" alt="Kitty" className="w-8 h-8 object-contain" />
           <span className="text-xs uppercase tracking-widest text-pink-600 font-mono font-medium">Regalos & Vales</span>
-          <img src="/stickers/bubu-hug.gif" alt="Bubu Dudu" className="w-9 h-9 object-contain" />
+          <img src="./stickers/bubu-hug.gif" alt="Bubu Dudu" className="w-9 h-9 object-contain" />
         </div>
         <h2 className="text-3xl sm:text-4xl font-serif text-stone-900 font-bold">Cupones de Amor</h2>
         <p className="text-stone-600 text-sm max-w-md mx-auto">

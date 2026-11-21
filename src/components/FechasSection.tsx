@@ -93,12 +93,12 @@ export function FechasSection({ onNavigateToTeAcuerdas }: FechasSectionProps = {
       {/* Tarjeta de Contador en Vivo (Aniversario) en tono cálido */}
       <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-white via-pink-50/50 to-rose-50/40 border border-pink-200/80 text-center space-y-4 shadow-lg shadow-pink-100/50 relative overflow-hidden">
         <div className="flex items-center justify-center gap-3">
-          <img src="/stickers/bubu-dudu-love.gif" alt="Bubu & Dudu" className="w-10 h-10 object-contain hidden sm:inline" />
+          <img src="./stickers/bubu-dudu-love.gif" alt="Bubu & Dudu" className="w-10 h-10 object-contain hidden sm:inline" />
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-pink-100 border border-pink-200 text-pink-700 text-xs font-medium">
             <Clock className="w-3.5 h-3.5 animate-pulse text-pink-500" />
             <span>Tiempo de enamorados desde el 3 de Octubre de 2025</span>
           </div>
-          <img src="/stickers/hello-kitty-2.png" alt="Hello Kitty" className="w-8 h-8 object-contain hidden sm:inline" />
+          <img src="./stickers/hello-kitty-2.png" alt="Hello Kitty" className="w-8 h-8 object-contain hidden sm:inline" />
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-xl mx-auto pt-2">

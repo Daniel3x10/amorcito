@@ -184,12 +184,12 @@ export function PreguntasSection() {
           {/* Botón Ruleta / Pregunta al Azar */}
           <div className="p-6 rounded-3xl bg-gradient-to-r from-white via-pink-50/50 to-amber-50/40 border border-pink-200 text-center space-y-4 shadow-md">
             <div className="flex items-center justify-center gap-3">
-              <img src="/stickers/bubu-hearts.gif" alt="Bubu" className="w-10 h-10 object-contain" />
+              <img src="./stickers/bubu-hearts.gif" alt="Bubu" className="w-10 h-10 object-contain" />
               <div className="flex items-center gap-2 text-pink-700 text-xs font-semibold">
                 <Shuffle className="w-4 h-4 text-pink-500 animate-spin-slow" />
                 <span>Modo Juego: Pregunta al Azar</span>
               </div>
-              <img src="/stickers/hello-kitty-3.png" alt="Kitty" className="w-9 h-9 object-contain" />
+              <img src="./stickers/hello-kitty-3.png" alt="Kitty" className="w-9 h-9 object-contain" />
             </div>
 
             {preguntaAleatoria ? (

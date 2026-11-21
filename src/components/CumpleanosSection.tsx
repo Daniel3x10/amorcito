@@ -55,11 +55,11 @@ export function CumpleanosSection() {
       {/* Título de la sección con stickers tiernos */}
       <div className="text-center space-y-3">
         <div className="flex items-center justify-center gap-3">
-          <img src="/stickers/hello-kitty-1.png" alt="Kitty" className="w-9 h-9 object-contain animate-float" />
+          <img src="./stickers/hello-kitty-1.png" alt="Kitty" className="w-9 h-9 object-contain animate-float" />
           <span className="text-xs uppercase tracking-widest text-pink-600 font-mono font-semibold bg-pink-100 px-3.5 py-1 rounded-full border border-pink-200">
             13 de Noviembre 🎂
           </span>
-          <img src="/stickers/bubu-dancing.gif" alt="Bubu" className="w-9 h-9 object-contain" />
+          <img src="./stickers/bubu-dancing.gif" alt="Bubu" className="w-9 h-9 object-contain" />
         </div>
 
         <h2 className="text-3xl sm:text-5xl font-serif text-stone-900 font-bold tracking-tight">
@@ -155,7 +155,7 @@ export function CumpleanosSection() {
               <Cake className="w-12 h-12" />
             </div>
             <img 
-              src="/stickers/bubu-dudu.png" 
+              src="./stickers/bubu-dudu.png" 
               alt="Bubu & Dudu" 
               className="absolute -right-8 -bottom-2 w-12 h-12 object-contain drop-shadow" 
             />

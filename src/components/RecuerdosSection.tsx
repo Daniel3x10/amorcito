@@ -106,15 +106,15 @@ export function RecuerdosSection() {
           >
             {/* Thumbnail optimizado y ultraliviano (~60KB) */}
             <img
-              src={`/fotos/thumbs/${recuerdo.archivo}`}
+              src={`./fotos/thumbs/${recuerdo.archivo}`}
               alt={recuerdo.titulo}
               loading="lazy"
               decoding="async"
               onError={(e) => {
                 // Fallback a foto original si el thumbnail no existiera
                 const target = e.currentTarget;
-                if (!target.src.includes('/fotos/' + recuerdo.archivo)) {
-                  target.src = `/fotos/${recuerdo.archivo}`;
+                if (!target.src.includes('./fotos/' + recuerdo.archivo)) {
+                  target.src = `./fotos/${recuerdo.archivo}`;
                 }
               }}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
@@ -203,7 +203,7 @@ export function RecuerdosSection() {
             {/* Imagen Grande (aquí carga la foto en alta resolución para ver cada detalle) */}
             <div className="flex-1 min-h-[300px] max-h-[70vh] flex items-center justify-center bg-black/60 p-2">
               <img
-                src={`/fotos/${fotoSeleccionada.archivo}`}
+                src={`./fotos/${fotoSeleccionada.archivo}`}
                 alt={fotoSeleccionada.titulo}
                 decoding="async"
                 className="max-h-[68vh] w-auto max-w-full object-contain rounded-lg shadow-lg"

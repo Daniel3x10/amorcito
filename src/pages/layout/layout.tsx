@@ -62,7 +62,7 @@ export function Layout({ currentTab, onSelectTab, children }: LayoutProps) {
           {/* Logo / Título con Sticker Bubu */}
           <div className="flex items-center gap-2.5 shrink-0">
             <img 
-              src="/stickers/bubu-dancing.gif" 
+              src="./stickers/bubu-dancing.gif" 
               alt="Bubu" 
               className="w-8 h-8 object-contain" 
             />
@@ -114,13 +114,13 @@ export function Layout({ currentTab, onSelectTab, children }: LayoutProps) {
       <aside aria-label="Mascota tierna" className="fixed bottom-5 right-5 z-40 hidden sm:flex items-center gap-2 pointer-events-auto">
         <div className="relative group cursor-pointer bg-white/90 backdrop-blur-md border border-pink-200 p-2 rounded-2xl shadow-lg hover:scale-110 transition-transform">
           <img 
-            src="/stickers/hello-kitty-1.png" 
+            src="./stickers/hello-kitty-1.png" 
             alt="Hello Kitty" 
             className="w-10 h-10 object-contain drop-shadow-sm" 
           />
           <div className="absolute bottom-full right-0 mb-2 hidden group-hover:flex flex-col items-center bg-white border border-pink-200 p-3 rounded-2xl text-center shadow-2xl w-48 animate-fade-in pointer-events-none">
             <img 
-              src="/stickers/bubu-dudu-love.gif" 
+              src="./stickers/bubu-dudu-love.gif" 
               alt="Bubu & Dudu" 
               className="w-20 h-20 object-contain" 
             />
